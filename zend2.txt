@@ -1,0 +1,53 @@
+
+http://www.youtube.com/watch?v=X4RI8riQ62Q
+http://www.youtube.com/watch?v=_aFVY43tCB0
+
+http://www.youtube.com/watch?v=_GXApT5tib4
+-------------------------------------------
+
+Download and rename 'ZendSkeletonApplication-master'  as 'zendsample'. Place in your 'htdocs' folder or  'www' folder.
+
+Then go below instractions.
+
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\rambabu.rambabu-PC>cd..
+
+C:\Users>cd..
+
+C:\>cd xampp
+
+C:\xampp>cd htdocs
+
+C:\xampp\htdocs>cd zendsample
+
+C:\xampp\htdocs\zendsample>php composer.phar self-update
+You are already using composer version fff913d6de5ec8c4315f466cf203c3e0acc3218a.
+
+
+C:\xampp\htdocs\zendsample>php composer.phar install
+Loading composer repositories with package information
+Installing dependencies (including require-dev)
+  - Installing zendframework/zendframework (2.2.5)
+    Downloading: 100%
+
+zendframework/zendframework suggests installing ext-intl (ext/intl for i18n feat
+ures (included in default builds of PHP))
+zendframework/zendframework suggests installing doctrine/annotations (Doctrine A
+nnotations >=1.0 for annotation features)
+zendframework/zendframework suggests installing ircmaxell/random-lib (Fallback r
+andom byte generator for Zend\Math\Rand if OpenSSL/Mcrypt extensions are unavail
+able)
+zendframework/zendframework suggests installing ocramius/proxy-manager (ProxyMan
+ager to handle lazy initialization of services)
+zendframework/zendframework suggests installing zendframework/zendpdf (ZendPdf f
+or creating PDF representations of barcodes)
+zendframework/zendframework suggests installing zendframework/zendservice-recapt
+cha (ZendService\ReCaptcha for rendering ReCaptchas in Zend\Captcha and/or Zend\
+Form)
+Writing lock file
+Generating autoload files
+
+C:\xampp\htdocs\zendsample>
