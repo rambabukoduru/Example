@@ -1,0 +1,37 @@
+/*-- static pages ( rajeshwar 24-01-2014) --*/
+.banner { background: url(../images/banner-bg.png) no-repeat left top; border-bottom:5px solid #64452d; height:275px; margin-top:-10px; position:relative; width:100% }
+.banner-txt { position:absolute; left:380px; top:96px; width:330px }
+.banner-txt p { color:#352c21; font: 400 20px/29px 'Roboto Condensed', sans-serif; text-align:justify; text-shadow:2px 2px 0 #FFFFFF}
+.banner-txt span { color:#f2652d }
+.banner .page-name { color:#c4410c; font: 400 20px/21px 'Roboto Condensed', sans-serif; position:absolute; right:73px; top:116px; text-transform:uppercase; text-align:center; width:100px }
+.banner .banner-img { float:left; height:275px; position:absolute; left:23px; top:0; width:210px }
+.banner.aboutus .banner-img { background:url(../images/banner-aboutus.png) 0 0 no-repeat }
+.banner.help .banner-img { background:url(../images/banner-help.png) 0 0 no-repeat }
+.banner.contact .banner-img { background:url(../images/banner-contact.png) 0 0 no-repeat }
+.full-content { display:inline-block; margin:10px 0; width:100% }
+.full-content .page-heading { padding-bottom:14px; margin:0px 0 8px; width:100% }
+.full-content p { color:#333; font: 400 14px/27px 'Roboto', sans-serif; text-align:justify; margin:0; }
+.full-content h3 { color:#64452d; font: 400 20px/100% 'Roboto Condensed', sans-serif; margin-bottom:6px }
+.full-content a { color:#f47321 }
+.full-content a:hover { color:#a63f03 }
+.bdr-btm { border-bottom: 1px dotted #CCCCCC; display: inline-block; padding:0; margin-bottom:20px; width: 100% }
+.frame-475 { width:475px; padding-bottom:22px }
+.frame-img { width:180px; float:left; margin-right:9px }
+.frame-img img { border:1px solid #c0c0c0; padding:3px; -webkit-box-shadow: 3px 3px 3px 0 #d2d2d2; box-shadow: 3px 3px 3px 0 #d2d2d2 }
+.frame-img p { font: 400 12px/20px 'Roboto', sans-serif; text-align:center }
+.frame-txt { float:left; width:285px }
+.frame-txt p { font: 400 13px/25px 'Roboto', sans-serif; text-align:justify }
+.page-list { width:100%; display:inline-block; margin:5px 0 0px }
+.page-list ul li { list-style:none; display:inline-block }
+.page-list ul li h5 { color:#f47321; font: 400 13px/20px 'Roboto', sans-serif }
+.page-list ul li p { font: 400 13px/20px 'Roboto', sans-serif; margin-bottom:20px }
+.leftsidebar .page-heading, .rightsidebar .page-heading { margin-bottom:15px }
+.leftsidebar { float:left; width:280px }
+.leftsidebar img { border:1px solid #c0c0c0; padding:3px }
+.leftsidebar address { color:#663333; font: 400 13px/23px 'Roboto', sans-serif; margin:0 !important }
+.leftsidebar pre { font: 400 13px/23px 'Roboto', sans-serif; margin:0 !important }
+.rightsidebar { width:650px; }
+.contact input[type='text'], .contact textarea { border:1px solid #d2d2d2; color:#333333; font: 400 14px/14px 'Roboto', sans-serif; padding:12px 10px; margin-bottom:8px }
+.contact input[type='text'] { width:300px }
+.contact textarea { width:93.3%; height:260px; resize:none }
+.rightsidebar .page-buttons { margin:3px 0px 0 0 !important }
